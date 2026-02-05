@@ -38,7 +38,7 @@ function Header({ isDark, toggleTheme }) {
 
                 {/* Hanging Lamp Toggle */}
                 <div className="lamp-container" ref={lampRef}>
-                    <svg className={`lamp ${isDark ? 'lamp-on' : ''}`} viewBox="0 0 100 200" width="120" height="220">
+                    <svg className={`lamp ${isDark ? 'lamp-on' : ''}`} viewBox="0 0 100 200" width="30" height="50">
                         {/* Cord */}
                         <line x1="50" y1="0" x2="50" y2="50" className="lamp-cord" strokeWidth="3" />
 

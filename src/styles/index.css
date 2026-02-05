@@ -205,7 +205,8 @@ body.light .header.scrolled {
   flex-direction: column;
   align-items: center;
   cursor: pointer;
-  margin-top: -40px;
+  margin-top: -20px;
+  flex-shrink: 0;
 }
 
 .lamp {
